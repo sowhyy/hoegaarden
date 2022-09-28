@@ -23,7 +23,7 @@ h5 {
   position: absolute;
   writing-mode: vertical-lr;
   /* transform: rotateZ(90deg); */
-  top: 15%;
+  top: 10%;
   left: 1%;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -36,17 +36,19 @@ div.hoga {
   top: 4%;
   left: 8%;
   /* left: 200px; */
-  width: 850px;
-  height: 500px;
+  width: 50%;
   text-align: center;
 }
 
+div.hoga img {
+  width: 28%;
+}
 .hoga p:nth-of-type(1){
-  font-size: 40px;
+  font-size: 200%;
   font-weight: 700;
 }
 .hoga p:nth-of-type(2){
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 500;
 }
 
@@ -91,7 +93,7 @@ section article h2 {
   position: absolute;
   writing-mode: vertical-lr;
   /* transform: rotateZ(90deg); */
-  top: 20%;
+  top: 10%;
   left: 2%;
 
   font-family: 'Playfair Display', serif;
@@ -107,79 +109,72 @@ article:hover h2 {
   text-decoration: overline;
 }
 
-
 /* 제목 상자 */
 section article h3 {
   position: absolute;
-  right: -1000px;
-  top: 230px;
-  font-size: 40px;
+  top: 15%;
+  font-size: 200%;
   font-weight: 700;
   color: #fff;
-
   text-align: left;
-  width: 550px;
-
+  width: 55%;
 }
 
 /* 텍스트상자 */
 section article p {
   position: absolute;
-  /* left: 450px; */
-  right: -1000px;
-  top: 320px;
-  width: 550px;
+  top: 25%;
+  width: 55%;
   height: 400px;
   color: #000;
   text-align: justify;
-  font-size: 18px;
+  font-size: 110%;
   font-weight: 500;
-
 }
 
 section article img {
   position: absolute;
-  right: -500px;
-  top: 190px;
+  top: 15%;
 }
 
 h3.beer {
+  top: 15%;
+  width: 55%;
   text-align: center;
-  width: 520px;
   position: absolute;
-  top: 20%;
 }
+
 h3.beer span {
   background-color: #f39800;
 }
 
 p.beer {
   position: absolute;
-  top: 40%;
-  width: 500px;
+  top: 35%;
+  width: 55%;
   text-align: center;
-
+  font-size: 90%;
 }
 
 img.step{
   position: absolute;
-  top: 58%;
+  top: 53%;
 }
 
 p.step {
   position: absolute;
-  top: 71%;
-  width: 500px;
+  top: 70%;
+  width: 53%;
   text-align: center;
 }
 
 p.step span {
-  width: 110px;
+  width: 20%;
   float: left;
   text-align: center;
   font-size: 15px;
 }
 
 p.step span:not(:nth-of-type(0)){
-  margin-left: 15px;
+  margin-left: 5%;
 }
