@@ -19,15 +19,16 @@ $('article').mouseenter(function () {
   $(this)
     .stop()
     .animate({ width: '60%' }, 1000, function () {
-      $(this).find('img').stop().animate({ right: '750px' }, 800);
-      $(this).find('h3').stop().animate({ right: '10px' }, 100);
-      $(this).find('p').stop().animate({ right: '10px' }, 800);
+      $(this).find('img').stop().animate({ right: '65%' }, 800);
+      $(this).find('h3').stop().animate({ right: '5%' }, 100);
+      $(this).find('p').stop().animate({ right: '5%' }, 800);
       
-      $(this).find('h3.beer').stop().animate({ right: '80px' }, 100);
-      $(this).find('p.beer').stop().animate({ right: '80px' }, 800);
-      $(this).find('p.step').stop().animate({ right: '80px' }, 800);
-      $(this).find('img.beer').stop().animate({ right: '680px' }, 800);
-      $(this).find('img.step').stop().animate({ right: '30px' }, 800);
+      $(this).find('h3.beer').stop().animate({ right: '5%' }, 100);
+      $(this).find('img.beer').stop().animate({ right: '57%' }, 800);
+      $(this).find('p.beer').stop().animate({ right: '5%' }, 800);
+      
+      $(this).find('p.step').stop().animate({ right: '6%' }, 800);
+      $(this).find('img.step').stop().animate({ right: '5%' }, 800);
     });
 });
 

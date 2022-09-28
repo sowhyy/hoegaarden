@@ -13,22 +13,29 @@ html, body {
   height: 100%;
 }
 
+main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 h5 {
   position: absolute;
   writing-mode: vertical-lr;
   /* transform: rotateZ(90deg); */
-  top: 200px;
-  left: 20px;
+  top: 20%;
+  left: 1%;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 80px;
+  font-size: 500%;
   color: #000;
 }
 
-.hoga {
+div.hoga {
   position: absolute;
-  top: 40px;
-  left: 200px;
+  top: 4%;
+  left: 8%;
+  /* left: 200px; */
   width: 850px;
   height: 500px;
   text-align: center;
@@ -43,13 +50,6 @@ h5 {
   font-weight: 500;
 }
 
-
-main {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-
 section {
   position: fixed;
   top: 0;
@@ -58,7 +58,6 @@ section {
   height: 100%;
 }
 
-/* 기본 사이즈 */
 section article {
   position: relative;
   width: 8%;
@@ -92,12 +91,12 @@ section article h2 {
   position: absolute;
   writing-mode: vertical-lr;
   /* transform: rotateZ(90deg); */
-  top: 200px;
-  left: 20px;
+  top: 20%;
+  left: 2%;
 
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 80px;
+  font-size: 500%;
   /* color: #fff; */
   cursor: pointer;
 }
@@ -107,15 +106,6 @@ article:hover h2 {
   transition: all 0.5s;
   text-decoration: overline;
 }
-
-/* section article video {
-  position: absolute;
-  width: auto;
-  height: 100%;
-  opacity: 0;
-  z-index: 0;
-  background-color: aqua;
-} */
 
 
 /* 제목 상자 */
@@ -128,7 +118,8 @@ section article h3 {
   color: #fff;
 
   text-align: left;
-  width: 650px;
+  width: 550px;
+
 }
 
 /* 텍스트상자 */
@@ -137,8 +128,8 @@ section article p {
   /* left: 450px; */
   right: -1000px;
   top: 320px;
-  width: 650px;
-  height: 350px;
+  width: 550px;
+  height: 400px;
   color: #000;
   text-align: justify;
   font-size: 18px;
@@ -154,9 +145,9 @@ section article img {
 
 h3.beer {
   text-align: center;
-  width: 580px;
+  width: 520px;
   position: absolute;
-  top: 200px;
+  top: 20%;
 }
 h3.beer span {
   background-color: #f39800;
@@ -164,33 +155,31 @@ h3.beer span {
 
 p.beer {
   position: absolute;
-  right: -1000px;
-  top: 320px;
-  width: 580px;
-  height: 200px;
+  top: 40%;
+  width: 500px;
   text-align: center;
+
 }
+
+img.step{
+  position: absolute;
+  top: 58%;
+}
+
 p.step {
   position: absolute;
-  right: -1000px;
-  top: 530px;
-  width: 580px;
+  top: 71%;
+  width: 500px;
   text-align: center;
 }
 
-p.step img{
-  position: absolute;
-  top: 10px;
-}
-
-p.step span{
+p.step span {
   width: 110px;
   float: left;
   text-align: center;
-  margin-top: 150px;
-  margin-left: 25px;
+  font-size: 15px;
 }
 
-p.step span:nth-of-type(1){
-  margin-left: 30px;
+p.step span:not(:nth-of-type(0)){
+  margin-left: 15px;
 }
