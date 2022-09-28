@@ -160,9 +160,10 @@ p.beer {
   font-size: 90%;
 }
 
-img.step{
+p.step img{
   position: absolute;
-  top: 53%;
+  top: -40%;
+  width: 95%;
 }
 
 p.step {

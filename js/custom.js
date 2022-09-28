@@ -28,7 +28,7 @@ $('article').mouseenter(function () {
       $(this).find('p.beer').stop().animate({ right: '5%' }, 800);
       
       $(this).find('p.step').stop().animate({ right: '6%' }, 800);
-      $(this).find('img.step').stop().animate({ right: '5%' }, 800);
+      $(this).find('img.step').stop().animate({ right: '1%' }, 800);
     });
 });
 
