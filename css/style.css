@@ -145,7 +145,6 @@ h3.beer {
   width: 55%;
   text-align: center;
   position: absolute;
-
 }
 
 h3.beer span {
@@ -159,10 +158,12 @@ p.beer {
   text-align: center;
   font-size: 90%;
 }
-
+img.beer {
+  height: 70%;
+}
 p.step img{
   position: absolute;
-  top: -40%;
+  top: -35%;
   width: 95%;
 }
 
